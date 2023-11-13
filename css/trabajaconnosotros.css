@@ -24,6 +24,10 @@ nav a img{
     color: #00A3CF;
 }
 
+main{
+    background-color: aquamarine;
+}
+
 .texto{
     text-align: center;
     color: black;
@@ -41,32 +45,26 @@ article h2{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+button{
+    background: #00A3CF;
+    padding: 10px 30px;
+    color: bisque;
+    font-weight: 500;
 }
 
 .boton1{
     border-radius: 30px;
-    background: #00A3CF;
-    padding: 10px 30px;
-    color: bisque;
-    font-weight: 500;
-    margin-left: 50px;
 }
 
 .boton2{
     border-radius: 30px;
-    background: #00A3CF;
-    padding: 10px 30px;
-    color: bisque;
-    font-weight: 500;
 }
 
 .boton3{
     border-radius: 30px;
-    background: #00A3CF;
-    padding: 10px 30px;
-    color: bisque;
-    font-weight: 500;
-    margin-right: 50px;
 }
 
 .boton1:hover{
@@ -79,4 +77,88 @@ article h2{
 
 .boton3:hover{
     color: black;
+}
+
+@media (max-width: 992px){
+    .nav-item a{
+        font-size: 18px;
+        color: black;
+    }
+
+    nav ul{
+        background-color: aquamarine;
+    }
+
+    .contenedor{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button{
+        width: 50%;
+    }
+
+    .boton2{
+        margin-top: 20px;
+    }
+
+    .boton3{
+        margin-top: 20px;
+    }
+}
+
+footer{
+    background-color: black;
+    padding: 20px 0px;
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+footer section article{
+    width: 25%;
+    word-break:break-all;
+}
+
+footer section article figure .imagenfooter{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+}
+
+footer section article p{
+    color: beige;
+}
+
+footer section article h6{
+    color: beige;
+}
+
+footer section article a{
+    color: darkgray;
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    footer section{
+        display: block;
+    }
+
+    footer section article{
+        width: 100%;
+    }
+
+    footer section article h6{
+        padding-top: 10px;
+    }
+
+    footer section article figure .imagenfooter{
+        padding-bottom: 20px;
+    }
+
 }

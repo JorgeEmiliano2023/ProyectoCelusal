@@ -24,6 +24,10 @@ nav a img{
     color: #00A3CF;
 }
 
+main{
+    background-color: aquamarine;
+}
+
 .titulo{
     color: #00A3CF;
     font-size: 30px;
@@ -46,4 +50,71 @@ nav a img{
 
 .BotonDescargar:hover{
     color: black;
+}
+
+@media (max-width: 992px){
+    .nav-item a{
+        font-size: 18px;
+        color: black;
+    }
+
+    nav ul{
+        background-color: aquamarine;
+    }
+
+}
+
+footer{
+    background-color: black;
+    padding: 20px 0px;
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+footer section article{
+    width: 25%;
+    word-break:break-all;
+}
+
+footer section article figure .imagenfooter{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+}
+
+footer section article p{
+    color: beige;
+}
+
+footer section article h6{
+    color: beige;
+}
+
+footer section article a{
+    color: darkgray;
+    text-decoration: none;
+}
+
+@media (max-width: 576px) {
+    footer section{
+        display: block;
+    }
+
+    footer section article{
+        width: 100%;
+    }
+
+    footer section article h6{
+        padding-top: 10px;
+    }
+
+    footer section article figure .imagenfooter{
+        padding-bottom: 20px;
+    }
+
 }
