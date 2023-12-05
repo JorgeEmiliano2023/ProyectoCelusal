@@ -40,43 +40,15 @@ article h2{
     color: #00A3CF;
 }
 
-.contenedor{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 50px;
-    padding-bottom: 20px;
+.boton{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #00A3CF;
+    color: beige;
 }
 
-button{
-    background: #00A3CF;
-    padding: 10px 30px;
-    color: bisque;
-    font-weight: 500;
-}
-
-.boton1{
-    border-radius: 30px;
-}
-
-.boton2{
-    border-radius: 30px;
-}
-
-.boton3{
-    border-radius: 30px;
-}
-
-.boton1:hover{
-    color: black;
-}
-
-.boton2:hover{
-    color: black;
-}
-
-.boton3:hover{
-    color: black;
+.boton:hover{
+    background-color: black;
 }
 
 @media (max-width: 992px){
@@ -89,19 +61,6 @@ button{
         background-color: aquamarine;
     }
 
-    .contenedor{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .boton2{
-        margin-top: 20px;
-    }
-
-    .boton3{
-        margin-top: 20px;
-    }
 }
 
 footer{
@@ -131,7 +90,15 @@ footer section article p{
     color: beige;
 }
 
+footer section article p a{
+    color: beige;
+}
+
 footer section article h6{
+    color: beige;
+}
+
+footer section article h5{
     color: beige;
 }
 
@@ -140,7 +107,7 @@ footer section article a{
     text-decoration: none;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 796px) {
     footer section{
         display: block;
     }

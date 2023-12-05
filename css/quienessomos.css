@@ -113,7 +113,15 @@ footer section article p{
     color: beige;
 }
 
+footer section article p a{
+    color: beige;
+}
+
 footer section article h6{
+    color: beige;
+}
+
+footer section article h5{
     color: beige;
 }
 
@@ -122,7 +130,7 @@ footer section article a{
     text-decoration: none;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 890px) {
     footer section{
         display: block;
     }
